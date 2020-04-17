@@ -1,7 +1,7 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyANFBvNAcH7IutAHaqs0eInOciqPmgRT0Y",
+  apiKey: process.env.REACT_APP_FIREBASEAPI,
   authDomain: "seethegood-7b682.firebaseapp.com",
   databaseURL: "https://seethegood-7b682.firebaseio.com",
   projectId: "seethegood-7b682",
