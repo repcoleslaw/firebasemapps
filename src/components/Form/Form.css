@@ -3,10 +3,10 @@
 
 
 .form-button{
-  position:fixed;
+  position: absolute;
   z-index: 200;
-  bottom: 10vh;
-  right:5vw;
+  bottom: 25%;
+  right:5%;
   background-color: white;
   display: flex;
   justify-content: space-around;
@@ -38,13 +38,15 @@
   display:none;
 }
 .form-Container{
-  position: absolute;
+
   width:400px;
   min-height: 400px;
   background:white;
 
-  bottom:10vh;
-  right: 15vw;
+  position: absolute;
+  z-index: 200;
+  bottom: 25%;
+  right:10%;
 
   box-sizing: border-box;
 

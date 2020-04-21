@@ -4,5 +4,8 @@
 }
 .card-container{
   display:flex;
+  flex-direction: column;
   flex-wrap: wrap;
+
+  max-height: 500px;
 }

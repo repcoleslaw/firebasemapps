@@ -6,8 +6,23 @@
   list-style: none;
 }
 
+body{
+  background-color: #1D2D50;
+}
+.map-container{
+  background-color: oldlace;
+  display:relative;
+}
+
 .card{
   border: 1px red solid;
   width:250px;
   margin:.5em;
+}
+
+.card-contents{
+  border: 1px solid red;
+  display:flex;
+
+
 }
