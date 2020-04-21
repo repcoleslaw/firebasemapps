@@ -1,0 +1,49 @@
+.modal-container{
+  display:none;
+}
+
+.modal-container-open{
+  position: fixed;
+  width: 500px;
+  max-width: 500px;
+  top:15vh;
+
+  z-index: 200;
+  background-color: white;
+  padding:3em;
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column;
+
+  margin-left: -250px;
+  left: 50%;
+
+ 
+  transition: transform 0.5s ease-out;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.modal-container-open h1{
+  margin:1rem;
+}
+.modal-container-open p{
+  margin:1rem;
+}
+
+.modal-closeButton{
+  margin-bottom: 15px;
+  padding: 3px 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  width: 30px;
+  height:30px;
+  font-weight: bold;
+  background-color:#EC008C;
+  color:white;
+  align-self: flex-end;
+
+}
+

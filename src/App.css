@@ -5,3 +5,9 @@
   text-decoration: none;
   list-style: none;
 }
+
+.card{
+  border: 1px red solid;
+  width:250px;
+  margin:.5em;
+}
